@@ -1,0 +1,36 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>roomies</title>
+    <link rel="stylesheet" href="pro.css">
+   <!--box icon link-->
+   <link rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+  
+
+</head>
+<body>
+    <!--navbar-->
+    <header>
+        <div class="nav container">
+            <a href="pro.html" class="logo"><i class="bx bx-home"></i>Roomies</a>
+            <input type="checkbox" name=""id="menu">
+            <label for="menu" <i class="bx bx-menu" id="menu-icon"></i>> </label>
+            <ul class="navbar">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#contact us">Contact Us</a></li>
+                <li><a href="#about us">About Us</a></li>
+                <li><a href="login.html">Log In</a></li>
+            </ul>
+            <!--sign up-->
+            <a href="sign-up.html" class="btn-si">Sign Up</a>
+        </div>
+    
+    </header>
+    <section class="home container" id="home">
+      <!----  <img src="images\pexels-cottonbro-studio-4778421.jpg">-->
+    </section>
+</body>
+</html>    
