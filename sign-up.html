@@ -29,31 +29,35 @@
         <div class="cen">
          
         <h2>Welcome, Let's Get Started</h2>
-        <form method="post" >
+        <form method="post" action="signup.php">
+          <!-- ... Form fields ... -->
+       
+ 
             
-          <div class= "txt_field">
-            <input type="text" required>
+          <div class="txt_field">
+            <input type="text" name="full_name" required>
             <span></span>
             <label>Full Name</label>
-          </div>
-          <div class="txt_field">
-            <input type="email" required>
+        </div>
+        <div class="txt_field">
+            <input type="email" name="email" required>
             <span></span>
             <label>Email Address</label>
-          </div>
-          <div class="txt_field">
-            <input type="tel" required>
+        </div>
+        <div class="txt_field">
+            <input type="tel" name="phone_number" required>
             <span></span>
             <label>Phone Number</label>
-          </div>
-          <div class="txt_field">
-            <input type="password" required>
+        </div>
+        <div class="txt_field">
+            <input type="password" name="password" required>
             <span></span>
-            <label>Enter Password at least 8 character</label>
-          </div>
-          <a href="#submit" class="btn-sub">SIGN UP</a>
-          <div class="pass">Already have an account?
-            <a href="login.html" class="acc" >Log In</a>
+            <label>Password (at least 8 characters)</label>
+        </div>
+        <a href="form.html" class="btn-sub">Next...</a>
+       
+        <div class="pass">Already have an account?
+          <a href="login.html" class="acc" >Log In</a>
             </div>
           
 
